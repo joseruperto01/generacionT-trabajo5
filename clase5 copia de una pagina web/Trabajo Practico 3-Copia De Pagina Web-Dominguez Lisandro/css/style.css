@@ -1,0 +1,62 @@
+.clase-section1 {
+    border: 1px solid black;
+    height: 100vh;
+}
+
+
+.contenedor-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+
+.contenedor-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+ul {
+    margin-top: 25vh;
+}
+
+.clase-section2 {
+    border: 1px solid black;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    border: 1px solid  black;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+}
+
+nav h1 {
+    padding: 20px;
+}
+
+nav:hover {
+    background-color: cadetblue;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin-top: 50vh;
+    width: 50%;
+    text-align: center;
+
+}
+
+p:active {
+    background-color: black;
+    
+}
