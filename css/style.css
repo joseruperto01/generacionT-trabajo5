@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(27, 0, 49);
+   background-color:rgb(33, 29, 29);
 }
 
 .seccion {
@@ -9,7 +9,7 @@ body {
     margin: auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0 0 40px black;
+    /*box-shadow: 0 0 40px black;*/
  }
 
  .seccion h1 {
@@ -27,7 +27,7 @@ body {
     position: fixed;
     width: 100%;
     height: 10%;
-    background-color: rgba(40, 42, 163, 0.932);  /*el "rgba" tiene la opcion de opasidad que esta ubicada en el cuarto numero que use para hacer su color de fondo del navegador transparente*/
+    background-color:antiquewhite;
     transform: translate(-10px, -7px);
  }
 
@@ -38,14 +38,15 @@ body {
 
  nav ul li {
     margin-left: 1rem;
-    border: 1px solid white;
+    border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
+    
  }
 
  .nombre {
    border: 0px;
-   color:lightsalmon;
+   color:brown;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size:x-large;
    margin-left: auto;
@@ -58,7 +59,7 @@ body {
 }
 
  nav ul li:hover {
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 1px 4px black;
  }
 
  nav ul li a {
@@ -199,5 +200,4 @@ input:focus {
 textarea:focus {
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-
 
