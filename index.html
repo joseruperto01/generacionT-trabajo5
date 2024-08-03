@@ -9,6 +9,7 @@
 <body>
     <nav>
         <ul>
+            <li><a style="color: black;" href="#s1">ir al encabezado</a></li>
             <li><a style="color: black;" href="#s2">ir al porfolio</a></li>
             <li><a style="color: black;" href="#s3">acerca de mi</a></li>
             <li><a style="color: black;" href="#s4">contacto</a></li>
@@ -16,11 +17,19 @@
         </ul>
     </nav>
     
+    <section class="seccionE" id="s1">
+        <h1>Encabezado</h1>
+        <div class="Ediv">
+            <img src="./img/WhatsApp Image 2024-08-03 at 13.38.04.jpeg" alt="foto">
+        </div>
+        <h3>Lisandro Dominguez</h3>
+    </section>
+
     <section class="seccion" id="s2">
         <h1>Porfolio</h1>
         <div>
             <a href="./clase5 copia de una pagina web/Trabajo Practico 3-Copia De Pagina Web-Dominguez Lisandro/copia.html" target="_blank"><img class="img1" alt="aguanta" src="./img/Captura de pantalla de 2024-08-02 11-34-31.png"></a>
-            <a href="./clase8 secciones, navegador, tamaños y mas/secciones.html" target="_blank"><img class="img2" alt="banana-man" src="./img/Captura de pantalla de 2024-08-02 11-36-11.png"></a>
+            <a href="./TrabajoPractico4/index.html" target="_blank"><img class="img2" alt="banana-man" src="./img/Captura de pantalla (8).png"></a>
            
         </div>
     </section>
@@ -36,23 +45,24 @@
         <h1>contacto</h1>
         <h3>¿quieres contactarme?</h3>
         <div class="formulario1">
-            <label>Nombre
+            <form>
+                <label>Nombre
+                    <br>
+                    <input type="text" name="username" required>
+                </label>
                 <br>
-                <input type="text" name="username">
-            </label>
-            <br>
-            <label>email
+                <label>email
+                    <br>
+                    <input type="email" name="email" required>
+                </label>
                 <br>
-                <input type="email" name="email">
-            </label>
-            <br>
-            <label>Mensaje
+                <label>Mensaje
+                    <br>
+                    <textarea name="text" required></textarea>
+                </label>
                 <br>
-                <textarea name="text" id=""></textarea>
-            </label>
-            <br>
-            <input class="enviar" type="submit" value="Enviar">
-          
+                <input class="enviar" type="submit" value="Enviar" required>
+            </form>
         </div>
     </section>
     <footer>
@@ -78,6 +88,4 @@
 
 </body>
 
-</html>
-</body>
 </html>
