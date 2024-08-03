@@ -1,0 +1,33 @@
+.fondo{
+    height: 120vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: lemonchiffon;
+  
+}
+
+.caja{
+    height: 80vh;
+    width: 60vw;
+    text-align: center;
+    border: 5px ridge blue;
+    background-color: white;
+   
+}
+
+img{
+    height: 120vh;
+}
+
+input{
+    height: 2rem;
+    margin: 8px;
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+    text-align: center;
+}
